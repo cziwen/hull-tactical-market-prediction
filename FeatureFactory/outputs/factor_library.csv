@@ -1,0 +1,228 @@
+factor_name,expression,category
+LAG_M1_T1,"Ref($M1, 1)",lag
+LAG_M1_T2,"Ref($M1, 2)",lag
+LAG_M1_T5,"Ref($M1, 5)",lag
+LAG_M1_T10,"Ref($M1, 10)",lag
+LAG_M1_T20,"Ref($M1, 20)",lag
+LAG_M1_T60,"Ref($M1, 60)",lag
+LAG_V1_T1,"Ref($V1, 1)",lag
+LAG_V1_T2,"Ref($V1, 2)",lag
+LAG_V1_T5,"Ref($V1, 5)",lag
+LAG_V1_T10,"Ref($V1, 10)",lag
+LAG_V1_T20,"Ref($V1, 20)",lag
+LAG_V1_T60,"Ref($V1, 60)",lag
+LAG_P1_T1,"Ref($P1, 1)",lag
+LAG_P1_T2,"Ref($P1, 2)",lag
+LAG_P1_T5,"Ref($P1, 5)",lag
+LAG_P1_T10,"Ref($P1, 10)",lag
+LAG_P1_T20,"Ref($P1, 20)",lag
+LAG_P1_T60,"Ref($P1, 60)",lag
+LAG_S1_T1,"Ref($S1, 1)",lag
+LAG_S1_T2,"Ref($S1, 2)",lag
+LAG_S1_T5,"Ref($S1, 5)",lag
+LAG_S1_T10,"Ref($S1, 10)",lag
+LAG_S1_T20,"Ref($S1, 20)",lag
+LAG_S1_T60,"Ref($S1, 60)",lag
+LAG_E1_T1,"Ref($E1, 1)",lag
+LAG_E1_T2,"Ref($E1, 2)",lag
+LAG_E1_T5,"Ref($E1, 5)",lag
+LAG_E1_T10,"Ref($E1, 10)",lag
+LAG_E1_T20,"Ref($E1, 20)",lag
+LAG_E1_T60,"Ref($E1, 60)",lag
+LAG_I1_T1,"Ref($I1, 1)",lag
+LAG_I1_T2,"Ref($I1, 2)",lag
+LAG_I1_T5,"Ref($I1, 5)",lag
+LAG_I1_T10,"Ref($I1, 10)",lag
+LAG_I1_T20,"Ref($I1, 20)",lag
+LAG_I1_T60,"Ref($I1, 60)",lag
+ROLL_MEAN_M1_W5,"Mean($M1, 5)",rolling
+ROLL_STD_M1_W5,"Std($M1, 5)",rolling
+ROLL_MAX_M1_W5,"Max($M1, 5)",rolling
+ROLL_MIN_M1_W5,"Min($M1, 5)",rolling
+ROLL_MEDIAN_M1_W5,"Median($M1, 5)",rolling
+ROLL_MEAN_M1_W10,"Mean($M1, 10)",rolling
+ROLL_STD_M1_W10,"Std($M1, 10)",rolling
+ROLL_MAX_M1_W10,"Max($M1, 10)",rolling
+ROLL_MIN_M1_W10,"Min($M1, 10)",rolling
+ROLL_MEDIAN_M1_W10,"Median($M1, 10)",rolling
+ROLL_MEAN_M1_W20,"Mean($M1, 20)",rolling
+ROLL_STD_M1_W20,"Std($M1, 20)",rolling
+ROLL_MAX_M1_W20,"Max($M1, 20)",rolling
+ROLL_MIN_M1_W20,"Min($M1, 20)",rolling
+ROLL_MEDIAN_M1_W20,"Median($M1, 20)",rolling
+ROLL_MEAN_M1_W60,"Mean($M1, 60)",rolling
+ROLL_STD_M1_W60,"Std($M1, 60)",rolling
+ROLL_MAX_M1_W60,"Max($M1, 60)",rolling
+ROLL_MIN_M1_W60,"Min($M1, 60)",rolling
+ROLL_MEDIAN_M1_W60,"Median($M1, 60)",rolling
+ROLL_MEAN_M1_W120,"Mean($M1, 120)",rolling
+ROLL_STD_M1_W120,"Std($M1, 120)",rolling
+ROLL_MAX_M1_W120,"Max($M1, 120)",rolling
+ROLL_MIN_M1_W120,"Min($M1, 120)",rolling
+ROLL_MEDIAN_M1_W120,"Median($M1, 120)",rolling
+ROLL_MEAN_V1_W5,"Mean($V1, 5)",rolling
+ROLL_STD_V1_W5,"Std($V1, 5)",rolling
+ROLL_MAX_V1_W5,"Max($V1, 5)",rolling
+ROLL_MIN_V1_W5,"Min($V1, 5)",rolling
+ROLL_MEDIAN_V1_W5,"Median($V1, 5)",rolling
+ROLL_MEAN_V1_W10,"Mean($V1, 10)",rolling
+ROLL_STD_V1_W10,"Std($V1, 10)",rolling
+ROLL_MAX_V1_W10,"Max($V1, 10)",rolling
+ROLL_MIN_V1_W10,"Min($V1, 10)",rolling
+ROLL_MEDIAN_V1_W10,"Median($V1, 10)",rolling
+ROLL_MEAN_V1_W20,"Mean($V1, 20)",rolling
+ROLL_STD_V1_W20,"Std($V1, 20)",rolling
+ROLL_MAX_V1_W20,"Max($V1, 20)",rolling
+ROLL_MIN_V1_W20,"Min($V1, 20)",rolling
+ROLL_MEDIAN_V1_W20,"Median($V1, 20)",rolling
+ROLL_MEAN_V1_W60,"Mean($V1, 60)",rolling
+ROLL_STD_V1_W60,"Std($V1, 60)",rolling
+ROLL_MAX_V1_W60,"Max($V1, 60)",rolling
+ROLL_MIN_V1_W60,"Min($V1, 60)",rolling
+ROLL_MEDIAN_V1_W60,"Median($V1, 60)",rolling
+ROLL_MEAN_V1_W120,"Mean($V1, 120)",rolling
+ROLL_STD_V1_W120,"Std($V1, 120)",rolling
+ROLL_MAX_V1_W120,"Max($V1, 120)",rolling
+ROLL_MIN_V1_W120,"Min($V1, 120)",rolling
+ROLL_MEDIAN_V1_W120,"Median($V1, 120)",rolling
+ROLL_MEAN_P1_W5,"Mean($P1, 5)",rolling
+ROLL_STD_P1_W5,"Std($P1, 5)",rolling
+ROLL_MAX_P1_W5,"Max($P1, 5)",rolling
+ROLL_MIN_P1_W5,"Min($P1, 5)",rolling
+ROLL_MEDIAN_P1_W5,"Median($P1, 5)",rolling
+ROLL_MEAN_P1_W10,"Mean($P1, 10)",rolling
+ROLL_STD_P1_W10,"Std($P1, 10)",rolling
+ROLL_MAX_P1_W10,"Max($P1, 10)",rolling
+ROLL_MIN_P1_W10,"Min($P1, 10)",rolling
+ROLL_MEDIAN_P1_W10,"Median($P1, 10)",rolling
+ROLL_MEAN_P1_W20,"Mean($P1, 20)",rolling
+ROLL_STD_P1_W20,"Std($P1, 20)",rolling
+ROLL_MAX_P1_W20,"Max($P1, 20)",rolling
+ROLL_MIN_P1_W20,"Min($P1, 20)",rolling
+ROLL_MEDIAN_P1_W20,"Median($P1, 20)",rolling
+ROLL_MEAN_P1_W60,"Mean($P1, 60)",rolling
+ROLL_STD_P1_W60,"Std($P1, 60)",rolling
+ROLL_MAX_P1_W60,"Max($P1, 60)",rolling
+ROLL_MIN_P1_W60,"Min($P1, 60)",rolling
+ROLL_MEDIAN_P1_W60,"Median($P1, 60)",rolling
+ROLL_MEAN_P1_W120,"Mean($P1, 120)",rolling
+ROLL_STD_P1_W120,"Std($P1, 120)",rolling
+ROLL_MAX_P1_W120,"Max($P1, 120)",rolling
+ROLL_MIN_P1_W120,"Min($P1, 120)",rolling
+ROLL_MEDIAN_P1_W120,"Median($P1, 120)",rolling
+ROLL_MEAN_S1_W5,"Mean($S1, 5)",rolling
+ROLL_STD_S1_W5,"Std($S1, 5)",rolling
+ROLL_MAX_S1_W5,"Max($S1, 5)",rolling
+ROLL_MIN_S1_W5,"Min($S1, 5)",rolling
+ROLL_MEDIAN_S1_W5,"Median($S1, 5)",rolling
+ROLL_MEAN_S1_W10,"Mean($S1, 10)",rolling
+ROLL_STD_S1_W10,"Std($S1, 10)",rolling
+ROLL_MAX_S1_W10,"Max($S1, 10)",rolling
+ROLL_MIN_S1_W10,"Min($S1, 10)",rolling
+ROLL_MEDIAN_S1_W10,"Median($S1, 10)",rolling
+ROLL_MEAN_S1_W20,"Mean($S1, 20)",rolling
+ROLL_STD_S1_W20,"Std($S1, 20)",rolling
+ROLL_MAX_S1_W20,"Max($S1, 20)",rolling
+ROLL_MIN_S1_W20,"Min($S1, 20)",rolling
+ROLL_MEDIAN_S1_W20,"Median($S1, 20)",rolling
+ROLL_MEAN_S1_W60,"Mean($S1, 60)",rolling
+ROLL_STD_S1_W60,"Std($S1, 60)",rolling
+ROLL_MAX_S1_W60,"Max($S1, 60)",rolling
+ROLL_MIN_S1_W60,"Min($S1, 60)",rolling
+ROLL_MEDIAN_S1_W60,"Median($S1, 60)",rolling
+ROLL_MEAN_S1_W120,"Mean($S1, 120)",rolling
+ROLL_STD_S1_W120,"Std($S1, 120)",rolling
+ROLL_MAX_S1_W120,"Max($S1, 120)",rolling
+ROLL_MIN_S1_W120,"Min($S1, 120)",rolling
+ROLL_MEDIAN_S1_W120,"Median($S1, 120)",rolling
+MOM_M1_T5,"($M1 - Ref($M1, 5)) / Ref($M1, 5)",momentum
+MOM_M1_T10,"($M1 - Ref($M1, 10)) / Ref($M1, 10)",momentum
+MOM_M1_T20,"($M1 - Ref($M1, 20)) / Ref($M1, 20)",momentum
+MOM_M1_T60,"($M1 - Ref($M1, 60)) / Ref($M1, 60)",momentum
+MOM_P1_T5,"($P1 - Ref($P1, 5)) / Ref($P1, 5)",momentum
+MOM_P1_T10,"($P1 - Ref($P1, 10)) / Ref($P1, 10)",momentum
+MOM_P1_T20,"($P1 - Ref($P1, 20)) / Ref($P1, 20)",momentum
+MOM_P1_T60,"($P1 - Ref($P1, 60)) / Ref($P1, 60)",momentum
+MOM_V1_T5,"($V1 - Ref($V1, 5)) / Ref($V1, 5)",momentum
+MOM_V1_T10,"($V1 - Ref($V1, 10)) / Ref($V1, 10)",momentum
+MOM_V1_T20,"($V1 - Ref($V1, 20)) / Ref($V1, 20)",momentum
+MOM_V1_T60,"($V1 - Ref($V1, 60)) / Ref($V1, 60)",momentum
+VOL_CV_M1_W5,"Std($M1, 5) / Mean($M1, 5)",volatility
+VOL_RANGE_M1_W5,"(Max($M1, 5) - Min($M1, 5)) / Mean($M1, 5)",volatility
+VOL_CV_M1_W10,"Std($M1, 10) / Mean($M1, 10)",volatility
+VOL_RANGE_M1_W10,"(Max($M1, 10) - Min($M1, 10)) / Mean($M1, 10)",volatility
+VOL_CV_M1_W20,"Std($M1, 20) / Mean($M1, 20)",volatility
+VOL_RANGE_M1_W20,"(Max($M1, 20) - Min($M1, 20)) / Mean($M1, 20)",volatility
+VOL_CV_M1_W60,"Std($M1, 60) / Mean($M1, 60)",volatility
+VOL_RANGE_M1_W60,"(Max($M1, 60) - Min($M1, 60)) / Mean($M1, 60)",volatility
+VOL_CV_V1_W5,"Std($V1, 5) / Mean($V1, 5)",volatility
+VOL_RANGE_V1_W5,"(Max($V1, 5) - Min($V1, 5)) / Mean($V1, 5)",volatility
+VOL_CV_V1_W10,"Std($V1, 10) / Mean($V1, 10)",volatility
+VOL_RANGE_V1_W10,"(Max($V1, 10) - Min($V1, 10)) / Mean($V1, 10)",volatility
+VOL_CV_V1_W20,"Std($V1, 20) / Mean($V1, 20)",volatility
+VOL_RANGE_V1_W20,"(Max($V1, 20) - Min($V1, 20)) / Mean($V1, 20)",volatility
+VOL_CV_V1_W60,"Std($V1, 60) / Mean($V1, 60)",volatility
+VOL_RANGE_V1_W60,"(Max($V1, 60) - Min($V1, 60)) / Mean($V1, 60)",volatility
+VOL_CV_P1_W5,"Std($P1, 5) / Mean($P1, 5)",volatility
+VOL_RANGE_P1_W5,"(Max($P1, 5) - Min($P1, 5)) / Mean($P1, 5)",volatility
+VOL_CV_P1_W10,"Std($P1, 10) / Mean($P1, 10)",volatility
+VOL_RANGE_P1_W10,"(Max($P1, 10) - Min($P1, 10)) / Mean($P1, 10)",volatility
+VOL_CV_P1_W20,"Std($P1, 20) / Mean($P1, 20)",volatility
+VOL_RANGE_P1_W20,"(Max($P1, 20) - Min($P1, 20)) / Mean($P1, 20)",volatility
+VOL_CV_P1_W60,"Std($P1, 60) / Mean($P1, 60)",volatility
+VOL_RANGE_P1_W60,"(Max($P1, 60) - Min($P1, 60)) / Mean($P1, 60)",volatility
+ZSCORE_M1_W20,"($M1 - Mean($M1, 20)) / Std($M1, 20)",zscore
+ZSCORE_M1_W60,"($M1 - Mean($M1, 60)) / Std($M1, 60)",zscore
+ZSCORE_M1_W120,"($M1 - Mean($M1, 120)) / Std($M1, 120)",zscore
+ZSCORE_V1_W20,"($V1 - Mean($V1, 20)) / Std($V1, 20)",zscore
+ZSCORE_V1_W60,"($V1 - Mean($V1, 60)) / Std($V1, 60)",zscore
+ZSCORE_V1_W120,"($V1 - Mean($V1, 120)) / Std($V1, 120)",zscore
+ZSCORE_P1_W20,"($P1 - Mean($P1, 20)) / Std($P1, 20)",zscore
+ZSCORE_P1_W60,"($P1 - Mean($P1, 60)) / Std($P1, 60)",zscore
+ZSCORE_P1_W120,"($P1 - Mean($P1, 120)) / Std($P1, 120)",zscore
+ZSCORE_S1_W20,"($S1 - Mean($S1, 20)) / Std($S1, 20)",zscore
+ZSCORE_S1_W60,"($S1 - Mean($S1, 60)) / Std($S1, 60)",zscore
+ZSCORE_S1_W120,"($S1 - Mean($S1, 120)) / Std($S1, 120)",zscore
+RATIO_M1_DIV_M2,$M1 / $M2,ratio
+DIFF_M1_SUB_M2,$M1 - $M2,ratio
+RATIO_M1_DIV_M3,$M1 / $M3,ratio
+DIFF_M1_SUB_M3,$M1 - $M3,ratio
+RATIO_M2_DIV_M3,$M2 / $M3,ratio
+DIFF_M2_SUB_M3,$M2 - $M3,ratio
+RATIO_V1_DIV_V2,$V1 / $V2,ratio
+DIFF_V1_SUB_V2,$V1 - $V2,ratio
+RATIO_V1_DIV_V3,$V1 / $V3,ratio
+DIFF_V1_SUB_V3,$V1 - $V3,ratio
+RATIO_P1_DIV_P2,$P1 / $P2,ratio
+DIFF_P1_SUB_P2,$P1 - $P2,ratio
+RATIO_P1_DIV_P3,$P1 / $P3,ratio
+DIFF_P1_SUB_P3,$P1 - $P3,ratio
+RATIO_S1_DIV_S2,$S1 / $S2,ratio
+DIFF_S1_SUB_S2,$S1 - $S2,ratio
+TECH_MACD_M1,"(EMA($M1, 12) - EMA($M1, 26)) / EMA($M1, 26)",technical
+TECH_BB_POSITION_M1,"($M1 - Mean($M1, 20)) / (2 * Std($M1, 20))",technical
+TECH_ROC_M1_10,"($M1 - Ref($M1, 10)) / Ref($M1, 10)",technical
+TECH_MACD_P1,"(EMA($P1, 12) - EMA($P1, 26)) / EMA($P1, 26)",technical
+TECH_BB_POSITION_P1,"($P1 - Mean($P1, 20)) / (2 * Std($P1, 20))",technical
+TECH_ROC_P1_10,"($P1 - Ref($P1, 10)) / Ref($P1, 10)",technical
+TECH_MACD_V1,"(EMA($V1, 12) - EMA($V1, 26)) / EMA($V1, 26)",technical
+TECH_BB_POSITION_V1,"($V1 - Mean($V1, 20)) / (2 * Std($V1, 20))",technical
+TECH_ROC_V1_10,"($V1 - Ref($V1, 10)) / Ref($V1, 10)",technical
+QUANTILE_M1_W20_Q25,"Quantile($M1, 20, 0.25)",quantile
+QUANTILE_M1_W20_Q50,"Quantile($M1, 20, 0.5)",quantile
+QUANTILE_M1_W20_Q75,"Quantile($M1, 20, 0.75)",quantile
+QUANTILE_M1_W60_Q25,"Quantile($M1, 60, 0.25)",quantile
+QUANTILE_M1_W60_Q50,"Quantile($M1, 60, 0.5)",quantile
+QUANTILE_M1_W60_Q75,"Quantile($M1, 60, 0.75)",quantile
+QUANTILE_V1_W20_Q25,"Quantile($V1, 20, 0.25)",quantile
+QUANTILE_V1_W20_Q50,"Quantile($V1, 20, 0.5)",quantile
+QUANTILE_V1_W20_Q75,"Quantile($V1, 20, 0.75)",quantile
+QUANTILE_V1_W60_Q25,"Quantile($V1, 60, 0.25)",quantile
+QUANTILE_V1_W60_Q50,"Quantile($V1, 60, 0.5)",quantile
+QUANTILE_V1_W60_Q75,"Quantile($V1, 60, 0.75)",quantile
+QUANTILE_P1_W20_Q25,"Quantile($P1, 20, 0.25)",quantile
+QUANTILE_P1_W20_Q50,"Quantile($P1, 20, 0.5)",quantile
+QUANTILE_P1_W20_Q75,"Quantile($P1, 20, 0.75)",quantile
+QUANTILE_P1_W60_Q25,"Quantile($P1, 60, 0.25)",quantile
+QUANTILE_P1_W60_Q50,"Quantile($P1, 60, 0.5)",quantile
+QUANTILE_P1_W60_Q75,"Quantile($P1, 60, 0.75)",quantile

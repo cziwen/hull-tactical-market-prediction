@@ -1,0 +1,108 @@
+# Factor Generation Configuration
+
+# Factor types to generate
+factor_types:
+  - lag
+  - rolling
+  - momentum
+  - volatility
+  - zscore
+  - ratio
+  - technical
+  - quantile
+
+# Lag factor settings
+lag:
+  features:
+    - M1
+    - V1
+    - P1
+    - S1
+    - E1
+    - I1
+  periods: [1, 2, 5, 10, 20, 60]
+
+# Rolling statistics settings
+rolling:
+  features:
+    - M1
+    - V1
+    - P1
+    - S1
+  windows: [5, 10, 20, 60, 120]
+  statistics: ['mean', 'std', 'max', 'min', 'median']
+
+# Momentum settings
+momentum:
+  features:
+    - M1
+    - P1
+    - V1
+  periods: [5, 10, 20, 60]
+
+# Volatility settings
+volatility:
+  features:
+    - M1
+    - V1
+    - P1
+  windows: [5, 10, 20, 60]
+
+# Z-score settings
+zscore:
+  features:
+    - M1
+    - V1
+    - P1
+    - S1
+  windows: [20, 60, 120]
+
+# Ratio/cross-feature settings
+ratio:
+  pairs:
+    - [M1, M2]
+    - [M1, M3]
+    - [M2, M3]
+    - [V1, V2]
+    - [V1, V3]
+    - [P1, P2]
+    - [P1, P3]
+    - [S1, S2]
+
+# Technical indicator settings
+technical:
+  features:
+    - M1
+    - P1
+    - V1
+
+# Quantile settings
+quantile:
+  features:
+    - M1
+    - V1
+    - P1
+  windows: [20, 60]
+  quantiles: [0.25, 0.5, 0.75]
+
+# Evaluation settings
+evaluation:
+  # Target variable
+  target: "market_forward_excess_returns"
+
+  # IC calculation method
+  ic_method: "spearman"  # Options: spearman, pearson
+
+  # IC window for ICIR calculation
+  ic_window: 20
+
+  # Selection criteria
+  min_abs_ic: 0.02
+  min_icir: 0.5
+  max_missing_ratio: 0.3
+
+  # Correlation threshold for feature selection
+  correlation_threshold: 0.8
+
+  # Top N features to select
+  top_n: 50

@@ -1,0 +1,45 @@
+# Data Configuration for Hull Tactical Market Prediction
+
+data:
+  # Raw data paths
+  train_path: "../data/raw/train.csv"
+  test_path: "../data/raw/test.csv"
+
+  # Processed data output
+  output_path: "../data/processed"
+
+  # Qlib format output
+  qlib_path: "../data/qlib_format"
+
+  # Instrument name (single asset)
+  instrument: "SP500"
+
+  # Date range (for date_id conversion)
+  start_date: "1990-01-01"  # Arbitrary reference point for date_id=0
+
+  # Feature groups
+  feature_prefixes:
+    D: 9   # Dummy/Binary features (D1-D9)
+    E: 20  # Economic features (E1-E20)
+    I: 9   # Interest Rate features (I1-I9)
+    M: 18  # Market Dynamics features (M1-M18)
+    P: 13  # Price/Valuation features (P1-P13)
+    S: 12  # Sentiment features (S1-S12)
+    V: 13  # Volatility features (V1-V13)
+
+  # Target variables
+  targets:
+    - forward_returns
+    - risk_free_rate
+    - market_forward_excess_returns
+
+# Data quality settings
+quality:
+  # Minimum valid data ratio for a feature to be considered
+  min_valid_ratio: 0.1
+
+  # Date range to use (to avoid early sparse data)
+  use_date_id_from: 5000  # Start from date_id 5000 to avoid sparse data
+
+  # Missing value handling
+  fillna_method: "forward"  # Options: forward, backward, zero, mean
